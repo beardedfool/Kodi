@@ -1,0 +1,9 @@
+http://192.168.21.10:8080/jsonrpc?request=
+
+
+{ "jsonrpc": "2.0", "method": "JSONRPC.Introspect", "params": { "filter": { "id": "VideoLibrary.GetRecentlyAddedEpisodes", "type": "method" } }, "id": 1 }
+
+/jsonrpc?request={ “jsonrpc”: “2.0”, “method”: “VideoLibrary.GetRecentlyAddedEpisodes”, “params”: { “properties”: [ “showtitle” ]}, “id”: 1}}
+
+UPDATE KODIDB  
+http://192.168.21.10:8085/jsonrpc?request={%22jsonrpc%22:%222.0%22,%22method%22:%22VideoLibrary.Scan%22}
